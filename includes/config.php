@@ -1,0 +1,10 @@
+<?php
+include_once('functions.php');
+preventFromCall();
+@define(HOME_DIR,'http://127.0.0.1/jarchive/');
+@define(LOCAL_DIR,'C:/xampp/htdocs/jarchive/');
+@define(SMTP_HOST,'smtp.gmail.com');
+@define(SMTP_PORT,'587');
+@define(SMTP_USER,'jarchive.esto@gmail.com');
+@define(SMTP_PWD,'hamzarachidabdessamadamine');
+?>
